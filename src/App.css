@@ -46,7 +46,7 @@
   border-radius: 35px;
   font-size: large;
   font-weight: 600;
-
+  transition: 0.25s;
 }
 .head2{
   display: flex;
@@ -81,4 +81,9 @@
 .block5{
   background: linear-gradient(120deg,rgb(18, 216, 0),rgb(179, 246, 182));
   color:#fff;
+}
+
+.block:hover{
+  cursor: pointer;
+  scale: 1.10;
 }
