@@ -1,5 +1,84 @@
-#root {
-  margin: 0 ;
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.header{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+}
+.nav{
+  display: flex;
+  gap: 20px;
+}
+
+.mid{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.head1{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 99%;
+  padding: 30px 0px;
+  border-radius: 10px;
+  background: linear-gradient(45deg,rgb(243, 212, 243),rgb(244, 231, 208),rgb(244, 231, 205),rgb(251, 211, 251));
+}
+
+.block{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 35px;
+  font-size: large;
+  font-weight: 600;
+
+}
+.head2{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#find,#dream{
+  font-size: 65px;
+}
+#find{
+
+}
+#dream{
+  font-weight: 400;
+}
+.head3{
+  display: flex;
+  flex-direction: column;
+
+}
+.block1{
+  background: linear-gradient(120deg,rgb(255, 98, 0),rgb(246, 211, 178));
+  color:#fff;
+}
+.block2,.block4{
+  background:white;
+}
+.block3{
+  background: linear-gradient(120deg,rgb(0, 81, 255),rgb(179, 194, 246));
+  color:#fff;
+}
+.block5{
+  background: linear-gradient(120deg,rgb(18, 216, 0),rgb(179, 246, 182));
+  color:#fff;
+}
